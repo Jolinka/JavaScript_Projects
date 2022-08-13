@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="globalVar" onclick="accessGlobal()">Click to access global scope variable</p>
+    <p id="localVar" onclick="accessLocal()">Click to access local scope variable</p>
+    <p id="err" onclick="error()">Display error in console.log()</p>
+    <p id="date" onclick="displayDate()">Click to display date</p>
+    <p id="mood" onclick="displayMood()">Click to display if logic</p>
+
+    <p>Enter value to order the food</p>
+    <input type="text" id="myFood">
+    <p id="foodValue"></p>
+    <button onclick="foodAnswer()">Check</button>
+    <br>
+
+    <p id="Time_of_day"></p>
+    <button onclick = "Time_function()">Click here to get the time</button>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
